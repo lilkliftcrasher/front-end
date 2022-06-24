@@ -10,7 +10,7 @@ const App = () => {
 
   
   useEffect(()=>{ 
-    axios.get('http://localhost:3001/services').then(response=>{
+    axios.get('http://localhost:3001/api/services').then(response=>{
 
     setService(response.data);
     
